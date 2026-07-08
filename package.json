@@ -1,0 +1,23 @@
+{
+  "name": "@manyshape/surface-sdk",
+  "version": "0.1.0",
+  "description": "In-sandbox surface SDK for Manyshape: the facet capability API (vanilla) and the React runtime entry (Preact-based).",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./guest-sdk.js": "./guest-sdk.js",
+    "./react-entry.js": "./react-entry.js"
+  },
+  "dependencies": {
+    "preact": "^10.24.0"
+  },
+  "keywords": [
+    "manyshape",
+    "surface",
+    "sandbox",
+    "generative-ui",
+    "react",
+    "preact"
+  ],
+  "author": "Them Labs, Inc."
+}
