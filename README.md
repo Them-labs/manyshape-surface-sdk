@@ -14,7 +14,7 @@ So there is exactly one way in and out: the `facet` capability bridge described 
 Surfaces don't `import` this package — the runtime **injects** these files into the iframe for you. You only install it if you host your own runtime (see [manyshape-examples](https://github.com/Them-labs/manyshape-examples)):
 
 ```sh
-npm install github:Them-labs/manyshape-surface-sdk
+npm install @manyshape/surface-sdk
 ```
 
 It ships two files: [`guest-sdk.js`](guest-sdk.js) (the `facet` API, always injected) and [`react-entry.js`](react-entry.js) (the Preact-based React runtime, injected only for React surfaces).

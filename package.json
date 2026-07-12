@@ -19,5 +19,16 @@
     "react",
     "preact"
   ],
-  "author": "Them Labs, Inc."
+  "author": "Them Labs, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Them-labs/manyshape-surface-sdk.git"
+  },
+  "homepage": "https://github.com/Them-labs/manyshape-surface-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/Them-labs/manyshape-surface-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
