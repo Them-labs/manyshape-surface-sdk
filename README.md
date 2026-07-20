@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/manyshape-logo.png" alt="Manyshape" width="340">
+</p>
+
 # @manyshape/surface-sdk
 
 **The API your interface runs against inside the sandbox.** A "surface" is one self-contained HTML file — the personal interface a user's agent (or you, by hand) builds for an app. It runs in a locked-down iframe:
